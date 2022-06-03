@@ -1,0 +1,36 @@
+{
+  "name": "scm-manager-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miker83z/fantastic-memory.git"
+  },
+  "author": "Mirko Zichichi <mikerz83@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/miker83z/fantastic-memory/issues"
+  },
+  "homepage": "https://github.com/miker83z/fantastic-memory#readme",
+  "dependencies": {
+    "algosdk": "^1.8.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "ipfs-http-client": "^49.0.4",
+    "path-browserify": "^1.0.1",
+    "source-map-loader": "^3.0.0",
+    "stream-browserify": "^3.0.0",
+    "uint8arrays": "^2.1.3",
+    "web3": "^1.3.4"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "1.2.3",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
