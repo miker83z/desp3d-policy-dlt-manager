@@ -1,2 +1,0 @@
-
-ãÛ{"class":"Obligation","type":"Obligation","identifier":"http://mpeg.org/obligation2","metadata":{"rdfs:label":"Indie label provide a song to publisher"},"issuedIn":"http://mpeg.org/contract2","issuer":"http://mpeg.org/RecordLabel","act":{"class":"Provide","type":"Provide","identifier":"http://mpeg.org/action3","actedBy":"http://mpeg.org/RecordLabel","actedOver":["http://mpeg.org/Song"]},"actedBySubject":"http://mpeg.org/RecordLabel","actObjects":["http://mpeg.org/Song"]}Û

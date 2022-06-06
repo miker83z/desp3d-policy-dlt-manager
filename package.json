@@ -1,6 +1,6 @@
 {
-  "name": "scm-manager-generator",
-  "version": "1.0.0",
+  "name": "dlt-policy-manager",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
     "algosdk": "^1.17.0",
     "crypto": "^1.0.1",
     "crypto-browserify": "^3.12.0",
-    "intelligible-storage-ipfs": "file:../intelligible-storage-ipfs",
+    "intelligible-storage-ipfs": "1.0.1",
     "path-browserify": "^1.0.1",
     "source-map-loader": "^3.0.1",
     "stream-browserify": "^3.0.0",
