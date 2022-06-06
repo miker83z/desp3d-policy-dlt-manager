@@ -1,0 +1,51 @@
+{
+  "class": "MCOPermission",
+  "type": "MCOPermission",
+  "identifier": "http://mpeg.org/permission0",
+  "textClauses": [
+    {
+      "class": "TextClause",
+      "identifier": "http://mpeg.org/textClause1",
+      "text": "Location data read-only policy for Targeted Advertising in Social Media"
+    }
+  ],
+  "issuedIn": "http://mpeg.org/contractLocationData",
+  "issuer": "http://mpeg.org/Catullo",
+  "act": {
+    "class": "Consult",
+    "type": "Processing",
+    "identifier": "http://mpeg.org/actionConsult",
+    "actedBy": "http://mpeg.org/Pippo",
+    "actedOver": ["http://mpeg.org/locationDataZ"]
+  },
+  "constraints": [
+    {
+      "class": "Consent",
+      "type": "LegalBasis",
+      "identifier": "http://mpeg.org/factConsent",
+      "hasDataSubject": "http://mpeg.org/Susy",
+      "hasDataController": "http://mpeg.org/Catullo",
+      "hasPurpose": [
+        {
+          "class": "SocialMediaMarketing",
+          "type": "Purpose",
+          "identifier": "http://mpeg.org/purpose1"
+        },
+        {
+          "class": "TargetedAdvertising",
+          "type": "Purpose",
+          "identifier": "http://mpeg.org/purpose2"
+        }
+      ],
+      "hasProcessing": [
+        {
+          "class": "Consult",
+          "type": "Processing",
+          "identifier": "http://mpeg.org/processing1"
+        }
+      ]
+    }
+  ],
+  "actedBySubject": "http://mpeg.org/Pippo",
+  "actObjects": ["http://mpeg.org/locationDataZ"]
+}

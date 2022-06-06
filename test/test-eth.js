@@ -34,10 +34,10 @@ const main = async () => {
   const smartContractSpecification = generate();
   const address = await deploy(smartContractSpecification);
   //const address = '0x9e0B0f5E7DF524cbe3BfbfAB3E733F1a7232ccB9';
-  await sleep(2000);
+  await sleep(1000);
   console.log('Parse');
   const res = await parse(address);
-  console.log(res);
+  console.log(JSON.stringify(res));
 };
 
 const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay));

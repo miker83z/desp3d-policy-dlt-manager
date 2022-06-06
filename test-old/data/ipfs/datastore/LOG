@@ -1,0 +1,77 @@
+=============== Jun 4, 2022 (UTC) ===============
+15:07:37.679646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:37.685574 db@open opening
+15:07:37.690201 version@stat F·[] S·0B[] Sc·[]
+15:07:37.692487 db@janitor F·2 G·0
+15:07:37.692531 db@open done T·6.922896ms
+15:07:37.920040 db@close closing
+15:07:37.920145 db@close done T·102.638µs
+=============== Jun 4, 2022 (UTC) ===============
+15:07:37.921242 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:37.921447 version@stat F·[] S·0B[] Sc·[]
+15:07:37.921465 db@open opening
+15:07:37.921563 journal@recovery F·1
+15:07:37.922245 journal@recovery recovering @1
+15:07:37.935481 memdb@flush created L0@2 N·12 S·1KiB "/pi..NGY,v10":"/pr..crQ,v12"
+15:07:37.936086 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:07:37.945662 db@janitor F·3 G·0
+15:07:37.945694 db@open done T·24.219418ms
+15:07:37.973810 db@close closing
+15:07:37.973976 db@close done T·159.275µs
+=============== Jun 4, 2022 (UTC) ===============
+15:07:38.061120 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:38.061260 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+15:07:38.061268 db@open opening
+15:07:38.061308 journal@recovery F·1
+15:07:38.061949 journal@recovery recovering @3
+15:07:38.064795 memdb@flush created L0@5 N·6 S·1KiB "/F5..6BI,v19":"/pi..rty,v14"
+15:07:38.064960 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:07:38.074231 db@janitor F·4 G·0
+15:07:38.074258 db@open done T·12.982096ms
+15:07:38.078447 db@close closing
+15:07:38.078517 db@close done T·61.034µs
+=============== Jun 4, 2022 (UTC) ===============
+15:07:38.120655 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:38.120792 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:07:38.120800 db@open opening
+15:07:38.120840 journal@recovery F·1
+15:07:38.121219 journal@recovery recovering @6
+15:07:38.123981 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:07:38.134116 db@janitor F·4 G·0
+15:07:38.134141 db@open done T·13.333394ms
+15:07:38.138330 db@close closing
+15:07:38.138384 db@close done T·52.731µs
+=============== Jun 4, 2022 (UTC) ===============
+15:07:38.181369 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:38.181515 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:07:38.181524 db@open opening
+15:07:38.181574 journal@recovery F·1
+15:07:38.182129 journal@recovery recovering @8
+15:07:38.184844 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:07:38.193845 db@janitor F·4 G·0
+15:07:38.193877 db@open done T·12.344211ms
+15:40:15.077102 db@close closing
+15:40:15.079068 db@close done T·1.972617ms
+=============== Jun 4, 2022 (UTC) ===============
+15:47:37.466314 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:47:37.470648 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+15:47:37.470698 db@open opening
+15:47:37.471345 journal@recovery F·1
+15:47:37.478356 journal@recovery recovering @10
+15:47:37.484891 memdb@flush created L0@12 N·136 S·12KiB "/F5..6BI,v30":"/pr..HQK,v138"
+15:47:37.485446 version@stat F·[3] S·15KiB[15KiB] Sc·[0.75]
+15:47:37.495878 db@janitor F·5 G·0
+15:47:37.495945 db@open done T·25.220598ms
+15:48:05.150329 db@close closing
+15:48:05.150483 db@close done T·149.669µs
+=============== Jun 4, 2022 (UTC) ===============
+15:48:12.298943 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:48:12.299346 version@stat F·[3] S·15KiB[15KiB] Sc·[0.75]
+15:48:12.299382 db@open opening
+15:48:12.299512 journal@recovery F·1
+15:48:12.300715 journal@recovery recovering @13
+15:48:12.306071 version@stat F·[3] S·15KiB[15KiB] Sc·[0.75]
+15:48:12.316393 db@janitor F·5 G·0
+15:48:12.316500 db@open done T·17.075783ms
+17:00:19.957221 db@close closing
+17:00:19.969081 db@close done T·11.844497ms
