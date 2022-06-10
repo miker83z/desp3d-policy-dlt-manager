@@ -1,6 +1,6 @@
 {
   "name": "dlt-policy-manager",
-  "version": "1.0.2-7",
+  "version": "1.0.2-8",
   "description": "",
   "main": "index.js",
   "scripts": {
